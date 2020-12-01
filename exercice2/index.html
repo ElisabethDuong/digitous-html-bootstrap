@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/exercice2.css" />
     <title>Bootstrap - Exercice 2</title>
 </head>
 
@@ -39,13 +39,25 @@
             <div class="col-12 col-md-8">
                 <div class="red"></div>
             </div>
-            <div class="col-sm-6 offset-sm-6 col-md-4 offset-md-0"> <!-- offset en small mais pas en medium -->
+            <div class="col-sm-6 offset-6 col-md-4 offset-md-0">
+                <!-- offset en small mais pas en medium, pas besoin de préciser offset-sm-6, bootstrap fonctionne toujours en mobile first -->
                 <div class="red"></div>
             </div>
         </div>
+    </div>
 
-    </div>
-    </div>
+        <!--
+            <div class="row justify-content-end">
+            <div class="col-12 col-md-8">
+                <div class="red"></div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="red"></div>
+            </div>
+        </div>
+        -->
+        <!-- justify-content-end remplace les offset -->
+
 </body>
 
 </html>

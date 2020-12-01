@@ -1,17 +1,16 @@
-.yellow {
+.yellow, .blue, .red {
     height: 75px;
     margin-bottom: 16px;
+}
+
+.yellow {
     background-color: yellow;
 }
 
 .blue {
-    height: 75px;
-    margin-bottom: 16px;
     background-color: blue;
 }
 
 .red {
-    height: 75px;
-    margin-bottom: 16px;
     background-color: red;
 }
